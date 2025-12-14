@@ -1,0 +1,969 @@
+{
+  "soft_bias": [
+    {
+      "if_any": [
+        "cheese"
+      ],
+      "then_class": "Avocado and Cheese Toasties",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "avocado"
+      ],
+      "then_class": "Avocado and Cheese Toasties",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "avocado cheese"
+      ],
+      "then_class": "Avocado and Cheese Toasties",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "cheese toasties"
+      ],
+      "then_class": "Avocado and Cheese Toasties",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "toasties"
+      ],
+      "then_class": "Avocado and Cheese Toasties",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "maybe avocado"
+      ],
+      "then_class": "Avocado and Cheese Toasties",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "extra"
+      ],
+      "then_any_of": [
+        "BLT Sandwich (Bacon, Lettuce, Tomato)",
+        "Bacon Cheeseburger",
+        "Classic French Fries",
+        "BBQ Chicken pizza",
+        "Sweet Potato Fries",
+        "Onion Rings",
+        "Beer-Battered Fish",
+        "Avocado and Cheese Toasties",
+        "BBQ Wings"
+      ],
+      "bias": 0.3
+    },
+    {
+      "if_any": [
+        "quick"
+      ],
+      "then_any_of": [
+        "BLT Sandwich (Bacon, Lettuce, Tomato)",
+        "Classic French Fries",
+        "BBQ Chicken pizza",
+        "Sweet Potato Fries",
+        "Onion Rings",
+        "Beer-Battered Fish",
+        "Avocado and Cheese Toasties",
+        "BBQ Wings"
+      ],
+      "bias": 0.3
+    },
+    {
+      "if_any": [
+        "crispy"
+      ],
+      "then_any_of": [
+        "Buffalo Wings",
+        "Classic French Fries",
+        "BBQ Chicken pizza",
+        "Sweet Potato Fries",
+        "Onion Rings",
+        "Beer-Battered Fish",
+        "Avocado and Cheese Toasties",
+        "BBQ Wings"
+      ],
+      "bias": 0.3
+    },
+    {
+      "if_any": [
+        "extra crispy"
+      ],
+      "then_any_of": [
+        "Bacon Cheeseburger",
+        "Classic French Fries",
+        "BBQ Chicken pizza",
+        "Sweet Potato Fries",
+        "Onion Rings",
+        "Beer-Battered Fish",
+        "Avocado and Cheese Toasties",
+        "BBQ Wings"
+      ],
+      "bias": 0.3
+    },
+    {
+      "if_any": [
+        "organic"
+      ],
+      "then_class": "Avocado and Cheese Toasties",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "organic ingredients"
+      ],
+      "then_class": "Avocado and Cheese Toasties",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "creamy"
+      ],
+      "then_class": "Avocado and Cheese Toasties",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "easy"
+      ],
+      "then_any_of": [
+        "Bacon Cheeseburger",
+        "Avocado and Cheese Toasties",
+        "BBQ Wings"
+      ],
+      "bias": 0.3
+    },
+    {
+      "if_any": [
+        "vegetarian"
+      ],
+      "then_any_of": [
+        "Onion Rings",
+        "Avocado and Cheese Toasties"
+      ],
+      "bias": 0.3
+    },
+    {
+      "if_any": [
+        "popular"
+      ],
+      "then_any_of": [
+        "Bacon Cheeseburger",
+        "Avocado and Cheese Toasties",
+        "BBQ Wings"
+      ],
+      "bias": 0.3
+    },
+    {
+      "if_any": [
+        "usual"
+      ],
+      "then_any_of": [
+        "Bacon Cheeseburger",
+        "BBQ Chicken pizza",
+        "Beer-Battered Fish",
+        "Avocado and Cheese Toasties",
+        "BBQ Wings"
+      ],
+      "bias": 0.3
+    },
+    {
+      "if_any": [
+        "classic"
+      ],
+      "then_any_of": [
+        "BLT Sandwich (Bacon, Lettuce, Tomato)",
+        "Bacon Cheeseburger",
+        "Classic French Fries",
+        "BBQ Chicken pizza",
+        "Beer-Battered Fish",
+        "Avocado and Cheese Toasties",
+        "BBQ Wings"
+      ],
+      "bias": 0.3
+    },
+    {
+      "if_any": [
+        "craving salty"
+      ],
+      "then_any_of": [
+        "Bacon Cheeseburger",
+        "Classic French Fries",
+        "Beer-Battered Fish"
+      ],
+      "bias": 0.3
+    },
+    {
+      "if_any": [
+        "light"
+      ],
+      "then_any_of": [
+        "BLT Sandwich (Bacon, Lettuce, Tomato)",
+        "Classic French Fries",
+        "Sweet Potato Fries",
+        "Onion Rings",
+        "Avocado and Cheese Toasties",
+        "BBQ Wings",
+        "Buffalo Wings"
+      ],
+      "bias": 0.3
+    },
+    {
+      "if_any": [
+        "quick easy"
+      ],
+      "then_any_of": [
+        "Bacon Cheeseburger",
+        "Avocado and Cheese Toasties",
+        "BBQ Wings",
+        "Buffalo Wings"
+      ],
+      "bias": 0.3
+    },
+    {
+      "if_any": [
+        "salty"
+      ],
+      "then_any_of": [
+        "Bacon Cheeseburger",
+        "Classic French Fries",
+        "Onion Rings",
+        "Beer-Battered Fish",
+        "Avocado and Cheese Toasties"
+      ],
+      "bias": 0.3
+    },
+    {
+      "if_any": [
+        "ketchup"
+      ],
+      "then_any_of": [
+        "Onion Rings",
+        "Sweet Potato Fries",
+        "Classic French Fries"
+      ],
+      "bias": 0.3
+    },
+    {
+      "if_any": [
+        "need ketchup"
+      ],
+      "then_any_of": [
+        "Onion Rings",
+        "Sweet Potato Fries",
+        "Classic French Fries"
+      ],
+      "bias": 0.3
+    },
+    {
+      "if_any": [
+        "portion"
+      ],
+      "then_any_of": [
+        "Classic French Fries",
+        "Onion Rings",
+        "Buffalo Wings",
+        "BBQ Wings"
+      ],
+      "bias": 0.3
+    },
+    {
+      "if_any": [
+        "chicken"
+      ],
+      "then_any_of": [
+        "BBQ Chicken pizza",
+        "BBQ Wings",
+        "Buffalo Wings"
+      ],
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "pizza"
+      ],
+      "then_class": "BBQ Chicken pizza",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "bbq"
+      ],
+      "then_any_of": [
+        "BBQ Chicken pizza",
+        "BBQ Wings"
+      ],
+      "bias": 0.3
+    },
+    {
+      "if_any": [
+        "bbq chicken"
+      ],
+      "then_class": "BBQ Chicken pizza",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "chicken pizza"
+      ],
+      "then_class": "BBQ Chicken pizza",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "maybe bbq"
+      ],
+      "then_any_of": [
+        "BBQ Chicken pizza",
+        "BBQ Wings"
+      ],
+      "bias": 0.3
+    },
+    {
+      "if_any": [
+        "sweetness"
+      ],
+      "then_any_of": [
+        "BBQ Chicken pizza",
+        "Sweet Potato Fries",
+        "BBQ Wings"
+      ],
+      "bias": 0.3
+    },
+    {
+      "if_any": [
+        "shareable"
+      ],
+      "then_any_of": [
+        "BBQ Chicken pizza",
+        "Onion Rings",
+        "BBQ Wings",
+        "Buffalo Wings",
+        "Classic French Fries"
+      ],
+      "bias": 0.3
+    },
+    {
+      "if_any": [
+        "hungry"
+      ],
+      "then_any_of": [
+        "BLT Sandwich (Bacon, Lettuce, Tomato)",
+        "Bacon Cheeseburger",
+        "BBQ Chicken pizza",
+        "Beer-Battered Fish",
+        "Avocado and Cheese Toasties"
+      ],
+      "bias": 0.3
+    },
+    {
+      "if_any": [
+        "bbq wings"
+      ],
+      "then_class": "BBQ Wings",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "wings"
+      ],
+      "then_any_of": [
+        "Buffalo Wings",
+        "BBQ Wings"
+      ],
+      "bias": 0.3
+    },
+    {
+      "if_any": [
+        "sauce"
+      ],
+      "then_any_of": [
+        "Onion Rings",
+        "Buffalo Wings",
+        "Classic French Fries",
+        "BBQ Wings"
+      ],
+      "bias": 0.3
+    },
+    {
+      "if_any": [
+        "blt"
+      ],
+      "then_class": "BLT Sandwich (Bacon, Lettuce, Tomato)",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "bacon"
+      ],
+      "then_any_of": [
+        "Bacon Cheeseburger",
+        "BLT Sandwich (Bacon, Lettuce, Tomato)"
+      ],
+      "bias": 0.3
+    },
+    {
+      "if_any": [
+        "lettuce"
+      ],
+      "then_any_of": [
+        "Bacon Cheeseburger",
+        "BLT Sandwich (Bacon, Lettuce, Tomato)"
+      ],
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "blt sandwich"
+      ],
+      "then_class": "BLT Sandwich (Bacon, Lettuce, Tomato)",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "sandwich"
+      ],
+      "then_any_of": [
+        "Avocado and Cheese Toasties",
+        "BLT Sandwich (Bacon, Lettuce, Tomato)"
+      ],
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "bacon lettuce"
+      ],
+      "then_class": "BLT Sandwich (Bacon, Lettuce, Tomato)",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "tomato"
+      ],
+      "then_any_of": [
+        "Bacon Cheeseburger",
+        "BLT Sandwich (Bacon, Lettuce, Tomato)"
+      ],
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "lettuce tomato"
+      ],
+      "then_class": "BLT Sandwich (Bacon, Lettuce, Tomato)",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "sandwich bacon"
+      ],
+      "then_class": "BLT Sandwich (Bacon, Lettuce, Tomato)",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "toasted"
+      ],
+      "then_class": "Avocado and Cheese Toasties",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "bread"
+      ],
+      "then_any_of": [
+        "Avocado and Cheese Toasties",
+        "BLT Sandwich (Bacon, Lettuce, Tomato)"
+      ],
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "tomatoes"
+      ],
+      "then_any_of": [
+        "Bacon Cheeseburger",
+        "BLT Sandwich (Bacon, Lettuce, Tomato)"
+      ],
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "maybe blt"
+      ],
+      "then_class": "BLT Sandwich (Bacon, Lettuce, Tomato)",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "crispy bacon"
+      ],
+      "then_any_of": [
+        "Bacon Cheeseburger",
+        "BLT Sandwich (Bacon, Lettuce, Tomato)"
+      ],
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "onion"
+      ],
+      "then_any_of": [
+        "Onion Rings",
+        "Bacon Cheeseburger"
+      ],
+      "bias": 0.3
+    },
+    {
+      "if_any": [
+        "juicy"
+      ],
+      "then_any_of": [
+        "Buffalo Wings",
+        "Bacon Cheeseburger",
+        "Buffalo Wings"
+      ],
+      "bias": 0.3
+    },
+    {
+      "if_any": [
+        "bacon cheeseburger"
+      ],
+      "then_class": "Bacon Cheeseburger",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "cheeseburger"
+      ],
+      "then_class": "Bacon Cheeseburger",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "fried"
+      ],
+      "then_any_of": [
+        "Classic French Fries",
+        "Sweet Potato Fries",
+        "Onion Rings",
+        "Beer-Battered Fish",
+        "BBQ Wings",
+        "Buffalo Wings"
+      ],
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "grilled"
+      ],
+      "then_class": "Bacon Cheeseburger",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "burger"
+      ],
+      "then_class": "Bacon Cheeseburger",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "maybe burger"
+      ],
+      "then_class": "Bacon Cheeseburger",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "beer"
+      ],
+      "then_class": "Beer-Battered Fish",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "fish"
+      ],
+      "then_class": "Beer-Battered Fish",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "battered"
+      ],
+      "then_class": "Beer-Battered Fish",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "battered fish"
+      ],
+      "then_class": "Beer-Battered Fish",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "beer battered"
+      ],
+      "then_class": "Beer-Battered Fish",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "maybe beer"
+      ],
+      "then_class": "Beer-Battered Fish",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "buffalo"
+      ],
+      "then_class": "Buffalo Wings",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "buffalo wings"
+      ],
+      "then_class": "Buffalo Wings",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "hot"
+      ],
+      "then_class": "Buffalo Wings",
+      "bias": 0.3
+    },
+    {
+      "if_any": [
+        "hot buffalo"
+      ],
+      "then_class": "Buffalo Wings",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "spicy"
+      ],
+      "then_class": "Buffalo Wings",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "coated sauce"
+      ],
+      "then_any_of": [
+        "Buffalo Wings",
+        "BBQ Wings"
+      ],
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "crispy outside"
+      ],
+      "then_any_of": [
+        "Buffalo Wings",
+        "BBQ Wings",
+        "Onion Rings",
+        "Beer-Battered Fish"
+      ],
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "spicy buffalo"
+      ],
+      "then_class": "Buffalo Wings",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "juicy buffalo"
+      ],
+      "then_class": "Buffalo Wings",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "saucy"
+      ],
+      "then_any_of": [
+        "Buffalo Wings",
+        "BBQ Wings"
+      ],
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "saucy buffalo"
+      ],
+      "then_class": "Buffalo Wings",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "fries"
+      ],
+      "then_any_of": [
+        "Sweet Potato Fries",
+        "Classic French Fries"
+      ],
+      "bias": 0.3
+    },
+    {
+      "if_any": [
+        "french fries"
+      ],
+      "then_class": "Classic French Fries",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "classic french"
+      ],
+      "then_class": "Classic French Fries",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "rings"
+      ],
+      "then_class": "Onion Rings",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "onion rings"
+      ],
+      "then_class": "Onion Rings",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "hot onion"
+      ],
+      "then_class": "Onion Rings",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "sweet"
+      ],
+      "then_class": "Sweet Potato Fries",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "potato fries"
+      ],
+      "then_any_of": [
+        "Classic French Fries",
+        "Sweet Potato Fries"
+      ],
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "sweet potato"
+      ],
+      "then_class": "Sweet Potato Fries",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "maybe sweet"
+      ],
+      "then_class": "Sweet Potato Fries",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "salty sweet"
+      ],
+      "then_class": "Sweet Potato Fries",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "crispy sweet"
+      ],
+      "then_class": "Sweet Potato Fries",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "wings that are nice",
+        "make it spicy",
+        "spicy wings"
+      ],
+      "then_class": "Buffalo Wings",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "smoky barbecue glaze",
+        "smoky barbecue sauce",
+        "smoky barbecue"
+      ],
+      "then_class": "BBQ Wings",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "sweet and tangy sauce",
+        "sweet and tangy"
+      ],
+      "then_class": "BBQ Wings",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "hot and zesty flavor",
+        "hot and zesty"
+      ],
+      "then_class": "Buffalo Wings",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "spicy wings with a tangy sauce",
+        "spicy wings with tangy sauce"
+      ],
+      "then_class": "Buffalo Wings",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "fries as starter",
+        "as a starter",
+        "starter fries",
+        "i don't want salty",
+        "dont want salty",
+        "not salty"
+      ],
+      "then_class": "Sweet Potato Fries",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "crispy potato fries",
+        "potato fries",
+        "regular fries",
+        "normal fries"
+      ],
+      "then_class": "Classic French Fries",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "fries that are a little sweet",
+        "little sweet fries",
+        "sweet fries"
+      ],
+      "then_class": "Sweet Potato Fries",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "fries made from sweet potatoes",
+        "made from sweet potatoes"
+      ],
+      "then_class": "Sweet Potato Fries",
+      "bias": 0.6
+    },
+    {
+      "if_any": [
+        "crunchy and oniony",
+        "oniony",
+        "deep-fried onion snacks",
+        "deep fried onion snacks"
+      ],
+      "then_class": "Onion Rings",
+      "bias": 0.6
+    }
+  ],
+  "hard_mask": [
+    {
+      "if_any": [
+        "sweet"
+      ],
+      "ban_any_of": [
+        "Buffalo Wings",
+        "Avocado and Cheese Toasties",
+        "Classic French Fries",
+        "Beer-Battered Fish",
+        "BLT Sandwich (Bacon, Lettuce, Tomato)",
+        "Bacon Cheeseburger",
+        "BBQ Chicken pizza"
+      ]
+    },
+    {
+      "if_any": [
+        "spicy"
+      ],
+      "ban_any_of": [
+        "Sweet Potato Fries",
+        "Avocado and Cheese Toasties"
+      ]
+    },
+    {
+      "if_any": [
+        "cold"
+      ],
+      "ban_any_of": [
+        "Buffalo Wings",
+        "BBQ Wings",
+        "Beer-Battered Fish",
+        "BBQ Chicken pizza",
+        "Bacon Cheeseburger",
+        "Classic French Fries",
+        "Sweet Potato Fries",
+        "Onion Rings"
+      ]
+    },
+    {
+      "if_any": [
+        "vegetarian"
+      ],
+      "ban_any_of": [
+        "BBQ Wings",
+        "Buffalo Wings",
+        "BBQ Chicken pizza",
+        "Bacon Cheeseburger",
+        "BLT Sandwich (Bacon, Lettuce, Tomato)",
+        "Beer-Battered Fish"
+      ]
+    },
+    {
+      "if_any": [
+        "fries that are a little sweet",
+        "fries made from sweet potatoes",
+        "made from sweet potatoes"
+      ],
+      "ban_any_of": [
+        "Classic French Fries"
+      ]
+    },
+    {
+      "if_any": [
+        "deep-fried onion snacks",
+        "crunchy and oniony",
+        "oniony"
+      ],
+      "ban_any_of": [
+        "Classic French Fries",
+        "Sweet Potato Fries"
+      ]
+    }
+  ]
+}
