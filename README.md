@@ -92,10 +92,29 @@ Evaluation outputs are written to reports/.
 
 Step 4: Run the API server
 
-python -m uvicorn src.server:app --reload --host 127.0.0.1 --port 8000
+This project is intended to be run by executing the server script directly.
 
-Open in browser:
+From the repository root:
+
+python src/server.py
+
+Then open:
+http://127.0.0.1:8000/
+
+Interactive UI:
+http://127.0.0.1:8000/
+
+OpenAPI docs:
 http://127.0.0.1:8000/docs
+
+Notes:
+- If port 8000 is busy, set a different port:
+  Windows PowerShell:
+  $env:PORT="8001"
+  python src/server.py
+
+Alternative (may not work depending on how Python resolves imports):
+python -m uvicorn src.server:app --reload
 
 
 Step 5: Ingest prediction and feedback logs (optional)
