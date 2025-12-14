@@ -3,6 +3,7 @@ from __future__ import annotations
 import json, glob
 from pathlib import Path
 from typing import List, Tuple
+from paths import get_project_root
 
 import numpy as np
 import torch
@@ -10,7 +11,7 @@ import torch.nn.functional as F
 from transformers import AutoTokenizer, AutoModel, AutoModelForSequenceClassification
 
 # ============== Canonical paths ==============
-PROJECT_ROOT   = Path(r"C:\Users\sup028\OneDrive - University of Salford\Hybrid Knowledge-Based Expert System")
+PROJECT_ROOT = get_project_root()
 BERT_CKPT_DIR  = PROJECT_ROOT / "models" / "bert_checkpoints"
 DATA_PARQUET   = PROJECT_ROOT / "data" / "RefinedData.parquet"
 CLASS_ORDER    = PROJECT_ROOT / "config" / "class_order.json"
