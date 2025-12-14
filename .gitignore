@@ -205,3 +205,37 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+```gitignore
+# Virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs and reports created at runtime
+logs/
+reports/
+
+# Model checkpoints and large artifacts
+models/
+checkpoints/
+*.zip
+*.pt
+*.pth
+*.ckpt
+
+# Data: ignore all parquet except the public demo parquet
+data/*.parquet
+!data/RefinedData.parquet
+data/splits/
+data/**/*.parquet
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
